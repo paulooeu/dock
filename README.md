@@ -29,6 +29,4 @@
 
 # Insominia
 
-Aperte aqui para importar o template no insominia ou utilize o Insomnia_2020-10-15.json que se encontra no projeto
-
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Dock&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fpaulooeu%2Fdock%2Fmain%2FInsomnia_2020-10-15.json%3Ftoken%3DAEELPV2ZYZ2A3DXQLL2GISC7Q7P7K)
+Utilize o Insomnia_2020-10-15.json que se encontra no projeto
