@@ -22,7 +22,7 @@ describe("Pessoa", () => {
       data_nascimento: "1994-11-06",
     });
 
-    expect(response.body).toHaveProperty("id");
+    expect(response.status).toBe(200);
   });
 
 });

@@ -18,7 +18,7 @@ class ContaController {
     }
 
     const {saldo,limite_saque_diario,flag_ativo,tipo_conta,pessoa_id} = (req.body);
-    const contaInstance = await Conta.create({
+    const {id} = await Conta.create({
       saldo,
       limite_saque_diario,
       flag_ativo,
@@ -27,7 +27,7 @@ class ContaController {
       data_criacao: new Date()
     });
     return res.json({
-      contaInstance
+      id
     });
   }
 

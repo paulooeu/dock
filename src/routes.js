@@ -12,7 +12,8 @@ routes.post("/conta", ContaController.store);
 routes.post("/bloquear", ContaController.bloquear);
 routes.post("/sacar", TransacaoController.sacar);
 routes.post("/depositar", TransacaoController.depositar);
-routes.post("/extrato", TransacaoController.extrato);
+routes.get("/extrato", TransacaoController.extrato);
+routes.get("/extratoPorPeriodo", TransacaoController.extratoPorPeriodo);
 
 
 export default routes;
